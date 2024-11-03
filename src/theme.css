@@ -1,0 +1,54 @@
+/* theme.css */
+
+/* עיצוב כללי לרקע */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* סגנון לכותרת הראשית */
+.header {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* סגנון לכרטיס */
+.card {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* סגנון כללי לכפתור */
+.button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* עיצובים לפי ערכת נושא */
+.light-theme .header,
+.light-theme .card,
+.light-theme .button {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-theme .header,
+.dark-theme .card,
+.dark-theme .button {
+  background-color: #333333;
+  color: #ffffff;
+}
